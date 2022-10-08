@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 260px;
+    font-family: Open Sans;
+    background-color: #008f9c;
+}
+
+.container{
+    border: solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    font-family: Open Sans;
+    background-color: #D4D4D4;
+    box-shadow: 5px 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.inputBox{
+    width: 500px;
+    height: 45px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-family: Open Sans;
+}
+
+.enterButton{
+    width: 510px;
+    height: 45px;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-family: Open Sans;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.enterButton:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: translate(0px,5px);
+}
+
+.emptyMessage{
+    color: red;
+    font-family: Open Sans;
+}
+
+.errorMessage{
+    color: red;
+    font-family: Open Sans
+}
+
+.newBarcode{
+    width: 510px;
+    height: 45px;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-family: Open Sans;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.newBarcode:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: translate(0px, 5px);
+}
+
+.container:hover{
+    transform: translate(0px, -10px);
+}
+
